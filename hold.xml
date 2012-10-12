@@ -6,6 +6,7 @@
   
   <default remote="eurotech" revision="refs/heads/master" sync-j="4"/>
   
+  <project groups="default" name="yocto" remote="eurotech" path="poky/yocto" revision="665bc3ac124bc33d6471f7b8ee9c061ee7f42178"/>
   <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" revision="5ca406f07866459cd91fd558a8c30dd9c3fc13df"/>
   <project groups="default" name="yp" remote="yp" path="poky" revision="0260bb5c6978839c068007fcff2f704937805faf"/>
 </manifest>
