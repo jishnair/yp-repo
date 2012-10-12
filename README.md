@@ -1,4 +1,4 @@
-Gumstix Repo Manifests for Yocto Build System
+Eurotech Repo Manifests for Yocto Build System
 =============================================
 This repository provides Repo manifests to setup the Yocto build system for
 the Eurotech products.
