@@ -68,8 +68,7 @@ Getting Started
 
         $ repo sync
 
-    Now go put on the coffee machine as this may take 20 minutes depending on
-    your connection.
+    This can take a while, depending on the size of the manifest and your connection.
 
 4.  Initialize the Yocto Environment.
 
