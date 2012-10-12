@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://github.com/gosborne" name="yp"/>
   <remote fetch="git://github.com/eurotech" name="yocto"/>
   <remote fetch="git://github.com/openembedded" name="oe"/>
+  <remote fetch="git://github.com/gosborne" name="gosborne"/>
   
-  <default remote="yp" revision="refs/heads/master" sync-j="4"/>
+  <default remote="yocto" revision="refs/heads/master" sync-j="4"/>
   
-  <project groups="default" name="yocto" path="poky/meta-zeus" revision="665bc3ac124bc33d6471f7b8ee9c061ee7f42178"/>
+  <project groups="default" name="yocto" path="poky/yocto" revision="665bc3ac124bc33d6471f7b8ee9c061ee7f42178"/>
   <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" revision="5ca406f07866459cd91fd558a8c30dd9c3fc13df"/>
-  <project groups="default" name="poky" remote="yp" revision="e7d4eba0a9bc02d61a77129da4be2f0c9239884b"/>
+  <project groups="default" name="yp" remote="gosborne" revision="e7d4eba0a9bc02d61a77129da4be2f0c9239884b"/>
 </manifest>
