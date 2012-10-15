@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/eurotech" name="eurotech"/>
+  <remote fetch="github.com:eurotech" name="eurotech"/>
   <remote fetch="git://github.com/openembedded" name="oe"/>
   <remote fetch="git://github.com/gosborne" name="yp"/>
   
